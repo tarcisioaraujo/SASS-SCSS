@@ -32,17 +32,31 @@ body {
             padding: 16px;
             border-radius: 8px;
             border-bottom-left-radius: 0;
+            strong {
+                color: #242939;
+            }
+            p {
+                font-size: 14px;
+            }
+            time {
+                font-size: 12px;
+                letter-spacing: 1px;
+                opacity: .65;
+            }
         }
-        strong {
-            color: #242939;
-        }
-        p {
-            font-size: 14px;
-        }
-        time {
-            font-size: 12px;
-            letter-spacing: 1px;
-            opacity: .65;
+        .menu {
+            display: flex;
+            align-items: center;
+            button {
+                border: none;
+                background: none;
+                outline: none;
+                img {
+                    width: 16px;
+                    opacity: .5;
+                    cursor: pointer;
+                }
+            }
         }
     }
 }

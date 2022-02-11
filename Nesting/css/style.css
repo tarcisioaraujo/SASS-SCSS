@@ -35,16 +35,30 @@ body {
   border-radius: 8px;
   border-bottom-left-radius: 0;
 }
-#chat li strong {
+#chat li .message strong {
   color: #242939;
 }
-#chat li p {
+#chat li .message p {
   font-size: 14px;
 }
-#chat li time {
+#chat li .message time {
   font-size: 12px;
   letter-spacing: 1px;
   opacity: 0.65;
+}
+#chat li .menu {
+  display: flex;
+  align-items: center;
+}
+#chat li .menu button {
+  border: none;
+  background: none;
+  outline: none;
+}
+#chat li .menu button img {
+  width: 16px;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
