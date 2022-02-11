@@ -19,10 +19,30 @@ body {
         margin-bottom: 32px;
         .avatar {
             padding: 0 16px;
+            display: flex;
+            align-items: flex-end;
             img {
                 border-radius: 50%;
                 width: 48px;
             }
+        }
+        .message {
+            flex: 1;
+            background-color: #f5f6fa;
+            padding: 16px;
+            border-radius: 8px;
+            border-bottom-left-radius: 0;
+        }
+        strong {
+            color: #242939;
+        }
+        p {
+            font-size: 14px;
+        }
+        time {
+            font-size: 12px;
+            letter-spacing: 1px;
+            opacity: .65;
         }
     }
 }

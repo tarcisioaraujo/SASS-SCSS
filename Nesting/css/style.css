@@ -21,10 +21,30 @@ body {
 }
 #chat li .avatar {
   padding: 0 16px;
+  display: flex;
+  align-items: flex-end;
 }
 #chat li .avatar img {
   border-radius: 50%;
   width: 48px;
+}
+#chat li .message {
+  flex: 1;
+  background-color: #f5f6fa;
+  padding: 16px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+}
+#chat li strong {
+  color: #242939;
+}
+#chat li p {
+  font-size: 14px;
+}
+#chat li time {
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: 0.65;
 }
 
 /*# sourceMappingURL=style.css.map */
