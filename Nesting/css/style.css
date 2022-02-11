@@ -15,5 +15,16 @@ body {
   padding: 0;
   list-style: none;
 }
+#chat li {
+  display: flex;
+  margin-bottom: 32px;
+}
+#chat li .avatar {
+  padding: 0 16px;
+}
+#chat li .avatar img {
+  border-radius: 50%;
+  width: 48px;
+}
 
 /*# sourceMappingURL=style.css.map */
