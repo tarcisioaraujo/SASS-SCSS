@@ -1,0 +1,11 @@
+.error, .error--grave {
+  background-color: #f57e7e;
+  border: 1px solid #f00;
+  margin: 16px;
+  padding: 10px;
+}
+.error--grave {
+  border-width: 3px;
+}
+
+/*# sourceMappingURL=index.css.map */

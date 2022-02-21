@@ -1,0 +1,10 @@
+.error {
+    background-color: rgb(245, 126, 126);
+    border: 1px solid #f00;
+    margin: 16px;
+    padding: 10px;
+    &--grave {
+        @extend .error;
+        border-width: 3px;
+    }
+}
