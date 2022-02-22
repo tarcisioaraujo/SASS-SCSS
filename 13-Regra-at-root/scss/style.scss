@@ -1,0 +1,22 @@
+@use "sass:selector";
+
+@mixin field($child) {
+
+    @at-root #{selector.unify(&, $child)} {
+        // @content; // obtem estilo onde foi utilizado o mixin
+        padding: 10px;
+        border: 2px solid #999;
+        margin: 10px;
+    }
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    .field {
+        @include field("input");
+        @include field("select");
+        // color: red;
+    }
+}
