@@ -1,0 +1,9 @@
+@use "sass:color";
+
+$base-color: rgb(0, 102, 77);
+
+@for $i from 1 through 3 {
+    ul:nth-child(3n + #{$i}){
+        background-color: color.adjust($base-color, $lightness: $i * 10%);
+    }    
+}
